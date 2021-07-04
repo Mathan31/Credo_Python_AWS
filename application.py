@@ -4,7 +4,7 @@ application = Flask(__name__)
 
 @application.route("/")
 def index():
-    return "<h1>WelCome to Credo World, Deploying in AWS EB!!!</h1>"
+    return "<h1>We are successfully Completed the Pipeline!!!Good Luck!!!!</h1>"
 
 if __name__ == '__main__':
     application.run()
